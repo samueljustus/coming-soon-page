@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    padding-top: 3em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    text-align: center;
+}
+.hero {
+    text-align: center;
+    margin-top: 1em;  
+}
+
+strong {
+    color: #000;
+    font-weight: 700;
+}
+.hero__title {
+    font-size: 1.3rem;
+    padding-bottom: .5em;
+    color: hsl(0, 0%, 59%);
+}
+
+.hero__text {
+    font-size: .8rem;
+    margin-bottom: 1.5em;
+    font-weight: 400;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.email {
+    border-radius: 100px;
+    padding: .7em;
+    border: 1px solid hsl(0, 0%, 59%);
+}
+
+input[placeholder] {
+    padding-left: 2em;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: hsl(223, 87%, 63%);
+    padding: .6em;
+    border-radius: 100px;
+    text-align: center;
+    margin-top: .5em;
+    margin-bottom: 2em;
+    font-size: .9rem;
+}
+
+.socials {
+    display: flex;
+    gap: 1em;
+    margin-top: 6em;
+}
+
+.icon {
+    border-radius: 50%;
+    color: hsl(223, 87%, 63%);
+    width: 100%;
+}
+
+.footer {
+    margin: 2.5em 0 2.5em;
+    font-size: .7em;
+}
