@@ -16,7 +16,7 @@ img {
 
 .container {
     width: 80%;
-    max-width: 900px;
+    max-width: 500px;
     padding-top: 3em;
     margin: 0 auto;
     display: flex;
@@ -52,17 +52,41 @@ strong {
 .form {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
 }
+
+
 .email {
     border-radius: 100px;
     padding: .7em;
     border: 1px solid hsl(0, 0%, 59%);
+    width: 100%;
+}
+
+.error-msg input {
+     border: 1px solid hsl(354, 100%, 66%);
+}
+
+.success input {
+    border: 1px solid green;
 }
 
 input[placeholder] {
     padding-left: 2em;
 }
+
+ .error-msg small {
+    text-align: center;
+    color: hsl(354, 100%, 66%);
+    font-size: .7rem;
+    margin: .7em 0 1em;
+    font-style: italic;
+}
+
+.cta {
+    width: 100%;
+}
+
 
 .btn {
     text-decoration: none;
@@ -74,6 +98,12 @@ input[placeholder] {
     margin-top: .5em;
     margin-bottom: 2em;
     font-size: .9rem;
+    border: none;
+    width: 100%;
+    
+}
+.btn:hover {
+    opacity: 0.9
 }
 
 .socials {
@@ -86,9 +116,54 @@ input[placeholder] {
     border-radius: 50%;
     color: hsl(223, 87%, 63%);
     width: 100%;
+    padding: .3em .4em;
 }
 
+.icon:hover {
+    color: #fff;
+    background: hsl(223, 87%, 63%);
+}
 .footer {
     margin: 2.5em 0 2.5em;
     font-size: .7em;
+    color:hsl(0, 0%, 59%);
+}
+
+@media (min-width: 600px) {
+    .form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* align-items: center; */
+        margin-bottom: 2em;
+        padding: 0;
+        gap: 1em;
+        position: relative;
+        width: 100%;
+    }
+    .email {
+        width: 100%;
+        padding: 1em;
+    }
+    .input__email {
+        width: 100%;
+    }
+
+    .error-msg small {
+        position: absolute;
+        top: 40px;
+        left: 10px;
+    }
+
+    .cta {
+        width: 40%;
+        margin-top: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+
+    .btn {
+        margin: 0px;
+        padding: 1em;
+    }
 }

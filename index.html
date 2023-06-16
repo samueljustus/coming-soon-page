@@ -16,10 +16,15 @@
             <h1 class="hero__title">We are launching <strong>soon!</strong></h1>
             <p class="hero__text">Subscribe and get notified</p>
         </div>
-        <div class="form">
-            <input class="email" type="email" placeholder="your email address...">
-            <a href="#" class="btn">Notify Me</a>
-        </div>
+        <form class="form" novalidate>
+            <div class="input__email">
+                 <input class="email" type="email" name="email" placeholder="your email address...">
+                 <small></small>
+               </div>
+               <div class="cta">
+                 <button class="btn">Notify Me</button>
+              </div>
+        </form>
         <div class="img">
             <img src="img/illustration-dashboard.png" alt="dashboard">
         </div>
@@ -32,5 +37,6 @@
             <p>© Copyright Ping. All rights reserved.</p>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
