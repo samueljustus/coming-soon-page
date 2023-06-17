@@ -11,7 +11,7 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 ### The challenge
 Users should be able to:
@@ -25,9 +25,7 @@ Users should be able to:
 	- The message for this error should say *"Please provide a valid email address"*
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://samueljustus.github.io/coming-soon-page/)
 
 ## My process
 i started with a mobile first workflow. i codded out the html then i added the css then i moved to the javscript to add the client
@@ -49,3 +47,16 @@ make it responsive.
   max-width: 100%
 }
 ```
+
+### Continued development
+
+continued and consistent prectice to improve my javascript and css skills
+
+### Useful resources
+https://www.instapaper.com/read/1613397170 - This is an amazing article which helped me finally understand form validation with js. 
+I'd recommend it to anyone still learning this concept.
+
+## Author
+Frontend Mentor - https://www.frontendmentor.io/profile/samueljustus
+Twitter - https://www.twitter.com/samueljustus_
+
