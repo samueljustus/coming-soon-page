@@ -39,3 +39,7 @@ function setSuccessMsg(input, msg) {
     small.innerText = msg
     form.className = 'form success';
 } 
+
+email.addEventListener('click', () => {
+    email.style.outlineColor = "hsl(0, 0%, 59%)"
+})
